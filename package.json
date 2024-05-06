@@ -6,7 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Node.JS", "MongoDB", "JavaScript"],
+  "keywords": [
+    "Node.JS",
+    "MongoDB",
+    "JavaScript"
+  ],
   "author": "Luiz Gabriel de Figueiredo Marinho",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "multer": "^1.4.5-lts.1",
+    "yup": "^1.4.0"
+  }
 }
